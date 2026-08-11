@@ -8,11 +8,11 @@
    Replace with actual official authorized destinations.
    ─────────────────────────────────────────────────────────── */
 const MOVIE_LINKS = {
-  watchNow:    "OFFICIAL_WATCH_URL",
-  watch1080:   "OFFICIAL_1080P_URL",
-  watch720:    "OFFICIAL_720P_URL",
-  download:    "OFFICIAL_DOWNLOAD_URL",
-  newReleases: "OFFICIAL_NEW_RELEASES_URL"
+  watchNow:    "https://www.effectivecpmnetwork.com/hntz6ah30?key=3276c31e237f7285cfa3349eb2f739e3",
+  watch1080:   "https://www.effectivecpmnetwork.com/x1hyctr6?key=4ee2c4bae1426ff6ac316ded58dbeba1",
+  watch720:    "https://www.effectivecpmnetwork.com/i5juti9kki?key=96f023989f57c5c80eb3fb86eeaa943b",
+  download:    "https://www.effectivecpmnetwork.com/dy5tnmtd33?key=3c548e8d13fe664422dbb8da3da22ba9",
+  newReleases: "https://f1moviez.blogspot.com/"
 };
 
 /* ── APPLY MOVIE LINKS ───────────────────────────────────── */
