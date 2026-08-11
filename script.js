@@ -8,10 +8,10 @@
    Replace with actual official authorized destinations.
    ─────────────────────────────────────────────────────────── */
 const MOVIE_LINKS = {
-  watchNow:    "https://www.effectivecpmnetwork.com/hntz6ah30?key=3276c31e237f7285cfa3349eb2f739e3",
-  watch1080:   "https://www.effectivecpmnetwork.com/x1hyctr6?key=4ee2c4bae1426ff6ac316ded58dbeba1",
-  watch720:    "https://www.effectivecpmnetwork.com/i5juti9kki?key=96f023989f57c5c80eb3fb86eeaa943b",
-  download:    "https://www.effectivecpmnetwork.com/dy5tnmtd33?key=3c548e8d13fe664422dbb8da3da22ba9",
+  watchNow:    "http://tiny.cc/imgame",
+  watch1080:   "http://tiny.cc/imgame-1080p",
+  watch720:    "http://tiny.cc/imgame-720p",
+  download:    "http://tiny.cc/imgame-download",
   newReleases: "https://f1moviez.blogspot.com/"
 };
 
