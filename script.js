@@ -26,7 +26,7 @@ function applyMovieLinks() {
 
   // Also apply by ID for specific buttons
   const linkMap = {
-    'btn-watch-now':  MOVIE_LINKS.watchNow,
+    'btn-watch-now':  https://www.effectivecpmnetwork.com/hntz6ah30?key=3276c31e237f7285cfa3349eb2f739e3.watchNow,
     'btn-watch-1080': MOVIE_LINKS.watch1080,
     'btn-watch-720':  MOVIE_LINKS.watch720,
     'btn-download':   MOVIE_LINKS.download,
