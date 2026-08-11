@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 – Page Not Found | I'm Game Movie</title>
+  <meta name="description" content="The page you're looking for doesn't exist. Return to I'm Game movie information page." />
+  <meta name="robots" content="noindex, follow" />
+  <link rel="canonical" href="https://USERNAME.github.io/REPOSITORY/" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet" />
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      background: #080810;
+      color: rgba(255,255,255,0.9);
+      font-family: 'Inter', system-ui, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      overflow: hidden;
+    }
+    .container-404 {
+      padding: 2rem;
+      max-width: 600px;
+      position: relative;
+      z-index: 1;
+      animation: fadeUp 0.8s ease forwards;
+    }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .error-code {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(6rem, 20vw, 10rem);
+      font-weight: 900;
+      line-height: 1;
+      background: linear-gradient(135deg, #c0392b, #5e35b1, #c9a84c);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 0.5rem;
+      filter: drop-shadow(0 0 60px rgba(192,57,43,0.4));
+    }
+    .error-title {
+      font-size: clamp(1.1rem, 3vw, 1.4rem);
+      font-weight: 700;
+      color: rgba(255,255,255,0.9);
+      margin-bottom: 1rem;
+      letter-spacing: 0.05em;
+    }
+    .error-sub {
+      font-size: 1rem;
+      color: rgba(255,255,255,0.5);
+      margin-bottom: 2.5rem;
+      line-height: 1.7;
+    }
+    .error-clapperboard {
+      font-size: 4rem;
+      display: block;
+      margin-bottom: 1rem;
+      animation: swing 3s ease-in-out infinite;
+    }
+    @keyframes swing {
+      0%, 100% { transform: rotate(-5deg); }
+      50%       { transform: rotate(5deg); }
+    }
+    .btn-home {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.85rem 2rem;
+      border-radius: 100px;
+      background: linear-gradient(135deg, #c0392b, #6b1a2a);
+      color: #fff;
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      box-shadow: 0 4px 20px rgba(192,57,43,0.4);
+      transition: all 0.3s ease;
+    }
+    .btn-home:hover {
+      background: linear-gradient(135deg, #d44235, #c0392b);
+      box-shadow: 0 8px 32px rgba(192,57,43,0.6);
+      transform: translateY(-2px);
+      color: #fff;
+    }
+    .bg-circles {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      overflow: hidden;
+      pointer-events: none;
+    }
+    .circle {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(80px);
+      opacity: 0.15;
+    }
+    .circle-1 {
+      width: 400px; height: 400px;
+      background: #5e35b1;
+      top: -100px; left: -100px;
+    }
+    .circle-2 {
+      width: 350px; height: 350px;
+      background: #8b1a2a;
+      bottom: -100px; right: -100px;
+    }
+    .film-strip {
+      display: flex;
+      gap: 4px;
+      justify-content: center;
+      margin-bottom: 2rem;
+      overflow: hidden;
+    }
+    .film-frame {
+      width: 8px;
+      height: 40px;
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 2px;
+      background: rgba(255,255,255,0.04);
+    }
+    .film-frame:nth-child(3),
+    .film-frame:nth-child(7) {
+      background: rgba(192,57,43,0.15);
+      border-color: rgba(192,57,43,0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-circles" aria-hidden="true">
+    <div class="circle circle-1"></div>
+    <div class="circle circle-2"></div>
+  </div>
+
+  <main class="container-404">
+    <span class="error-clapperboard" role="img" aria-label="Film clapperboard">🎬</span>
+    <div class="error-code" aria-label="Error 404">404</div>
+    <h1 class="error-title">Looks like this scene doesn't exist.</h1>
+    <p class="error-sub">
+      The page you're looking for has been cut from the script.<br />
+      Head back to find everything about <em>I'm Game</em>.
+    </p>
+    <div class="film-strip" aria-hidden="true">
+      <div class="film-frame"></div>
+      <div class="film-frame"></div>
+      <div class="film-frame"></div>
+      <div class="film-frame"></div>
+      <div class="film-frame"></div>
+      <div class="film-frame"></div>
+      <div class="film-frame"></div>
+      <div class="film-frame"></div>
+      <div class="film-frame"></div>
+      <div class="film-frame"></div>
+    </div>
+    <a href="index.html" class="btn-home">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      BACK TO HOME
+    </a>
+  </main>
+</body>
+</html>
